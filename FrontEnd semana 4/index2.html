@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Pokedex</title>
+    <script src="index2.js" type="text/javascript" defer></script>
+    <link href="index2.css" rel="stylesheet" >
+  </head>
+  <body>
+    <header class="titulo-contenedor">
+      <div class= "logo">
+        <img src="dex.png" alt="logopoke">
+      </div>
+      <div class= "bola">
+        <img src="bola.png" alt="bolapoke">
+      </div>.
+    </header>
+    <div class="contenedor">
+      <form action="" onsubmit="searchPokemon(event)">
+        <input type="text" name="pokemon" autocomplete="off">
+      </form>
+      <div data-poke-card class="poke-card">
+        <div class="nombre">
+          <div data-poke-name>Pokebola</div>
+        </div>
+        <div data-poke-img-container class="container">
+          <img data-poke-img class="pokebola" src="pokebola.png"  width="180px"/>
+        </div>
+        <div class="numero">
+          <div data-poke-id></div>
+        </div>
+        <div class="tipo">
+          <div data-poke-types class="poke-types"></div>
+        </div>
+        <div class="datos">
+          <div data-poke-stats class="poke-stats"></div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="pokedex">
+      <img src="pokedex.png" alt="pokedex" width="800px">
+    </div>
+    
+  </body>
+</html>
